@@ -78,6 +78,3 @@ This script will reset your system to its initial state, except for the installe
 - **Administrative privileges**: Both scripts require administrative privileges to make system changes.
 - **Tested on Raspberry Pi**: These scripts are specifically designed and tested to work on a Raspberry Pi using NetworkManager.
 
----
-
-Feel free to adjust the URLs to match your GitHub repository and customize the text as needed.
