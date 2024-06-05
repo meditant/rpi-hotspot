@@ -17,13 +17,22 @@ This project contains a Bash script that configures a Wi-Fi hotspot on a Raspber
     wget https://github.com/meditant/rpi-hotspot/raw/main/setup_hotspot.sh
     chmod +x setup_hotspot.sh
     ```
-
 2. **Run the script**:
     ```bash
     sudo ./setup_hotspot.sh
     ```
+### Direct download the Uninstallation Script
+1. **Link**:
+     **Run the script directly from GitHub using `curl`**:
+    ```bash
+    sudo bash -c "$(curl -fsSL https://github.com/meditant/rpi-hotspot/raw/main/setup_hotspot.sh)"
+    ```
+   **Run the script directly from GitHub using `wget`**:
+    ```bash
+    sudo bash -c "$(wget -qO- https://github.com/meditant/rpi-hotspot/raw/main/setup_hotspot.sh)"
+    ```
 
-3. **Enter the required information** or simply press Enter to use the default values.
+4. **Enter the required information** or simply press Enter to use the default values.
 
 ### Default Values
 
@@ -45,10 +54,21 @@ To revert to the initial state and remove the configurations created by the setu
     wget https://github.com/meditant/rpi-hotspot/raw/main/uninstall_hotspot.sh
     chmod +x uninstall_hotspot.sh
     ```
-
 2. **Run the uninstallation script**:
     ```bash
     sudo ./uninstall_hotspot.sh
+    ```
+### Direct download the Uninstallation Script
+
+1. **Run the uninstallation script**:
+       
+   **Run the script directly from GitHub using `curl`**:
+    ```bash
+    sudo bash -c "$(curl -fsSL https://github.com/your-username/your-repo/raw/main/uninstall_hotspot.sh)
+    ```
+   **Run the script directly from GitHub using `wget`**:
+    ```bash
+    sudo bash -c "$(wget -qO- https://github.com/your-username/your-repo/raw/main/uninstall_hotspot.sh)
     ```
 
 This script will reset your system to its initial state, except for the installed packages, which will remain.
